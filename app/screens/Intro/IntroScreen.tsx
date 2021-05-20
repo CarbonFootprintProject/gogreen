@@ -31,13 +31,13 @@ const IntroScreen = () => {
         <Text.Tertiary style={styles.text}>
           {t("INTRO_SCREEN_CONTINUE_AND_ACCEPT_TERMS_OF_USE")}
         </Text.Tertiary>
-        <TouchableOpacity
+        {/* <TouchableOpacity
           onPress={() =>
             WebBrowser.openBrowserAsync("http://nmf.earth/terms-of-use.pdf")
           }
         >
           <Text.Tertiary green>{t("INTRO_SCREEN_TERMS_OF_USE")}</Text.Tertiary>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         <View style={styles.buttonView}>
           <Button.Primary fullWidth onPress={onPress} textType={"Primary"}>
             <Text.Primary white center bold>

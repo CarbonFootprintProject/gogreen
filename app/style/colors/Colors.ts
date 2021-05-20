@@ -1,7 +1,7 @@
 export default {
   blue50: "#3957D0",
   green80: "#224632",
-  green50: "#4BB377",
+  green50: "#835CB9",
   green10: "#DCF0E5",
   grey100: "#111714",
   grey70: "#595D58",

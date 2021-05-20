@@ -17,6 +17,7 @@ export default StyleSheet.create({
   },
   logoNMF: {
     width: "50%",
+    height: 110,
   },
   appVersionTitle: {
     textAlign: "center",
